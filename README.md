@@ -51,7 +51,7 @@ This project is best explored interactively using Jupyter Notebook.
 1.  **Clone the repository:**
     Open your WSL Ubuntu terminal and clone the repository:
     ```
-    git clone [https://github.com/divamkumar/nn_and_autograd_from_scratch](https://github.com/divamkumar/nn_and_autograd_from_scratch)
+    git clone https://github.com/divamkumar/nn_and_autograd_from_scratch
     cd nn_and_autograd_from_scratch
     ```
 
