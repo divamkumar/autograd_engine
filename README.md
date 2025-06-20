@@ -7,7 +7,7 @@ This project is heavily inspired by [Andrej Karpathy's "micrograd" video series]
 ## Features
 
 * **Custom Autograd Engine (`ZeroDimTensor`):**
-    * Implements a custom `ZeroDimTensor` class to wrap scalar numerical values.
+    * Implements a custom `ZeroDimTensor` class to wrap scalar numerical values, akin to `Value` in Karpathy's micrograd. I decided to be intentional about this name since it implies that in a real autograd library, this would be a n-dimensional tensor. Since I am using scalars, the chosen name felt precise.
     * Automatically builds a dynamic computational graph by tracking operations (addition, multiplication, subtraction, division, power, tanh).
     * Calculates and stores gradients for all participating tensors via the `backward()` method.
 
